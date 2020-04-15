@@ -17,9 +17,40 @@
     />
 
     <title>EZ Emailz</title>
+
+    <style>
+        body {
+            background-color: cyan;
+        }
+        h1 {
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 25px;
+            padding: 5px;
+            color: white;
+            background-color: blue;
+            text-shadow: 1px 1px black;
+        }
+        .btn {
+            border-radius: 25px;
+            background-color: blue;
+            color: white;
+            text-shadow: 1px 1px black;
+        }
+        input, textarea {
+            border: 1px solid blue !important;
+            border-radius: 25px !important;
+        }
+        label {
+            font-weight: bold;
+            text-shadow: 1px 1px silver;
+            color: black;
+        }
+    </style>
   </head>
   <body>
       <div class="container">
+          <h1>Contact Me</h1>
     <form>
       <div class="form-group">
         <label for="email">Email address</label>
@@ -48,7 +79,7 @@
           placeholder="Write your email here...."
         ></textarea>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn">Submit</button>
     </form>
 </div>
     <!-- Optional JavaScript -->
