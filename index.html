@@ -19,6 +19,7 @@
     <title>EZ Emailz</title>
   </head>
   <body>
+      <div class="container">
     <form>
       <div class="form-group">
         <label for="email">Email address</label>
@@ -49,7 +50,7 @@
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
-
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
@@ -86,7 +87,7 @@
         $("#email").val("");
         $("#subject").val("");
         $("#message").val("");
-        
+
     // Open Email client and fill in the proper inputs
         window.open(`mailto:${email}?subject=${subject}&body=${message}`);
       });
